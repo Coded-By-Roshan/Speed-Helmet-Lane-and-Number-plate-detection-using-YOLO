@@ -3,8 +3,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 def send_violation_email(receiver_email, driver_name, vehicle_number, violation_type):
-    sender_email = "kingspider224@gmail.com" 
-    sender_password = "lybwnxsyyndmqbmx" 
+    sender_email = "" 
+    sender_password = "" 
     subject = "Notice of Traffic Rule Violation – {}".format(violation_type)
     message = f"""
     Dear {driver_name},
